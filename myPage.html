@@ -1,0 +1,125 @@
+
+
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="icon" href="orni.ico">
+    <link href="https://fonts.googleapis.com/css?family=Changa|Dancing+Script|Luckiest+Guy&display=swap" rel="stylesheet">
+    <link href="MypageStyle.css" rel="stylesheet">
+    <title> Start Page </title>
+</head>
+
+<body>
+
+    <div class="titre">
+        <p class=""> Welcome Back<button class="btn easteregg" onclick="togglePoeme()"> Pedro </button>;) </p>
+    </div>
+
+
+    <div class="headcontainer">
+       
+                <div class="heure">
+
+                    <span id="date_heure"></span>
+
+                </div>
+
+                <div class="navBar">
+
+                    <form class="form-inline" method="GET" action="https://google.com/search" >
+                        <input class="form-control w-75" type="text" name="q" placeholder="Une Recherche ?"
+                            aria-label="Une Recherche ?">
+                        <button class="btn btn-outline-danger mx-auto" style="color : black;" type="submit">GOO !</button>
+                    </form>
+
+                </div>
+
+
+                <div class="temperature">
+
+                    <div id="main" >
+  
+                        <div id='city'></div> 
+                        <div id ="temp"></div>
+                     
+                      </div>
+                    
+                </div>
+        
+    </div>
+
+
+    <div class="firstcontainer">
+
+        
+            <div class="boiteF">
+                <div class="taille_titre"> Réseaux </div>
+                <div> <a class="police ml-2" href="https://www.facebook.com/" target="blank"> Facebook </a></div>
+                <div> <a class="police ml-2" href="https://www.reddit.com/" target="blank"> Reddit </a></div>
+            </div>
+       
+       
+            <div class="boiteF">
+                <div class="taille_titre"> Vidéo </div>
+                <div> <a class="ml-2" href="https://www.youtube.com/" target="blank"> Youtube </a></div>
+                <div> <a class="ml-2" href="https://www.twitch.tv/" target="blank"> Twitch </a></div>
+                <div> <a class="ml-2" href="https://www.netflix.com/browse/" target="blank"> Netflix </a></div>
+            </div>
+        
+
+            <div class="boiteF">
+                <div class="taille_titre"> Divers </div>
+                <div> <a class="ml-2" href="https://fr.linkedin.com/" target="blank"> Linkedin </a></div>
+                <div> <a class="ml-2" href="http://portail.mediaschool.eu/" target="blank"> Mediaschool </a></div>
+            </div>
+        
+
+        <hr class="hr-color mx-auto w-75">   
+
+        
+            <div class="boiteF">
+                <div class="taille_titre"> Dev </div>
+                <div> <a class="ml-2" href="https://getbootstrap.com/" target="blank"> Bootstrap </a></div>
+                <div> <a class="ml-2" href="https://www.reddit.com/" target="blank"> MDN </a></div>
+            </div>
+        
+
+            <div class="boiteF">
+                <div class="taille_titre"> Traduction </div>
+                <div> <a class="ml-2" href="https://www.linguee.fr/" target="blank"> Linguee </a></div>
+                <div> <a class="ml-2" href="http://www.reverso.net/text_translation.aspx?lang=FR" target="blank"> Reverso </a></div>
+                <div> <a class="ml-2" href="https://www.deepl.com/fr/translator" target="blank"> Deepl </a></div>
+            </div>
+      
+
+            <div class="boiteF">
+                <div class="taille_titre"> News </div>
+                <div> <a class="ml-2" href="https://www.lemonde.fr/"> Le Monde </a></div>
+                <div> <a class="ml-2" href="https://www.lalsace.fr/"> Alsace </a></div>
+                <div> <a class="ml-2" href="http://www.footmercato.net/"> FootMercato </a></div>
+                <div> <a class="ml-2" href="https://www.informatiquenews.fr/"> InfoNews </a></div>
+            </div>
+        
+            
+    </div>
+
+
+        <div id="spanpoeme" class="poeme">
+            <p >
+                Petit Haïku : "Amer, acide, Salé, sucré, tout a Le goût de la vie."
+            </p>
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="date_heure.js"></script>
+        <script src="temperature.js"></script>
+        <script src="easteregg.js"></script>
+        
+
+     
+</body>
+</html>

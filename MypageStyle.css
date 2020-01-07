@@ -1,0 +1,222 @@
+
+
+body {  
+
+    background-color: #0f4c75; 
+}
+
+
+
+
+
+.titre{
+
+    text-align: center;
+    color: #f8b400;
+    margin-top: 1%;
+    font-size: 30px;
+    font-family: 'Courier Prime', monospace;
+    
+}
+
+.easteregg{
+
+    text-align: center;
+    color: #f8b400;
+    font-size: 28px;
+    
+}
+
+.easteregg:hover{
+
+    color: gold;    
+
+}
+
+
+
+
+
+
+.headcontainer{
+    
+    flex-wrap: wrap;
+    display: flex;   
+    margin: 10px;
+    font-family: 'Changa', sans-serif;
+    
+}
+
+.heure{
+    
+    width: 20%;
+    margin-left: 62px;
+    margin-right: 25px;
+    margin-bottom: 1%;
+    font-size: 30px;
+    text-align: left; 
+       
+}
+
+.navBar{
+    
+    width: 35%;
+    margin-left: 50px;
+    margin-right: 22px;
+    margin-bottom: 1%;
+    text-align: center;  
+
+}
+
+.temperature{
+
+    width: 20%;
+    margin-left: 15px;
+    margin-right: 22px;
+    margin-bottom: 1%;
+    text-align: right;
+    
+
+}
+
+
+
+
+
+
+.firstcontainer{
+
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding: 30px;
+    border: 4px solid  #3282b8;
+    border-radius: 15px;
+
+}
+
+.boiteF{
+    
+    flex-wrap: wrap;
+    width: 29%;
+    margin-left: 15px;
+    margin-right: 22px;
+    margin-bottom: 1%;
+    border: 2mm ridge #3282b8;
+    border-radius: 15px;
+    overflow-wrap: break-word;
+    background-color: #f1f1b0;
+}
+
+.taille_titre{
+
+    font-size:35px;
+    text-align: center;
+    font-family: 'Luckiest Guy', cursive;
+}
+
+a{
+
+    font-size: 25px;
+    font-family: 'Changa', sans-serif;
+    text-decoration: none;
+    color: #40bfc1;
+    transition-duration: 380ms;
+}
+
+a:hover{
+
+    font-size: 25px;
+    font-family: 'Changa', sans-serif;
+    text-decoration: none;
+    color: #eb8242;
+    padding-left: 50px;
+}
+
+
+
+
+
+.hr-color {
+
+    border: 3px solid white;
+    border-radius: 10px;
+}
+
+
+
+.poeme{
+    margin-left: 50px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 900;
+    color: gold;
+}
+
+
+
+
+
+
+@media screen and (max-width: 640px) {
+
+    .titre {
+        margin: 10px;
+        margin-right: 10px;
+        margin-left: 10px;
+        width: 100%;
+    }
+
+    .headcontainer {
+        margin: 10px;
+        margin-right: 10px;
+        margin-left: 10px;
+        width: 100%;
+    }
+
+    .heure {
+        margin: 10px;
+        margin-right: 10px;
+        margin-left: 10px;
+        width: 100%;
+    }
+
+    .navBar {
+        margin: 10px;
+        margin-right: 10px;
+        margin-left: 10px;
+        width: 100%;
+    }
+
+    .temperature {
+        margin: 10px;
+        margin-right: 10px;
+        margin-left: 10px;
+        width: 100%;
+    }
+
+    
+    .boiteF {
+        margin: 10px;
+        margin-right: 10px;
+        margin-left: 10px;
+        width: 100%;
+    }
+
+    .titre {
+        margin: 10px;
+        margin-right: 10px;
+        margin-left: 10px;
+        width: 100%;
+    }
+
+    .poeme {
+        margin: 10px;
+        margin-right: 10px;
+        margin-left: 10px;
+        width: 100%;
+    }
+}
+
+
+
